@@ -13,4 +13,5 @@ int main(int argc, char **argv){
     cout<<op.getAuth()<<endl;
     cout<<op.getOriginal()<<endl;
     cout<<op.getResult()<<endl;
+    return(0);
 }
