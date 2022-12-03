@@ -19,7 +19,7 @@ public:
     console()=delete;
     console (int argc,char **argv);
     string getIP(){return ip;}
-    string getPort(){return port;}
+    unsigned short int getPort(){return port;}
     string getAuth(){return auth;}
     string getOriginal(){return original;}
     string getResult(){return Result;}
