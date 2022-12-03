@@ -6,8 +6,11 @@
 using namespace std;
 class console{
 private:
-    string port="33333";
-    string auth="vclient.vonf";
+    unsigned short int port=33333;
+    int portLen;
+    int ipLen;
+    int NameLen;
+    string auth="~/.config/vclient.conf";
     string ip;
     string original;
     string Result;
