@@ -63,6 +63,9 @@ console::console(int argc,char **argv){
             help(argv[0]);
         }        
     }
+     if (ipLen == 0) {
+        help(argv[0]);
+        }
 }
 
 void console::help(const char* progName){
