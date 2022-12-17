@@ -5,15 +5,14 @@
 using namespace std;
 class Operator{
 private:
-	uint16_t n;
+const char *original;
+const char *Result;
+	uint16_t line;
     vector<uint16_t>in;
     vector<uint16_t>out;
-    uint16_t num_vectors;
-    uint16_t vectorLen;
-    uint16_t num_vector;
-    void read();
-    void write();
 public:
     Operator()=delete;
-    Operator(uint16_t);
+	Operator(const char *original,const char *Result);
+	void read(const char *original, vector<uint16_t>in, uint16_t line);
+    void write(const char *Result, vector<uint16_t>out, uint16_t line);
 };
