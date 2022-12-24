@@ -11,20 +11,8 @@ int main(int argc, char **argv){
     cout<<op.getOriginal()<<endl;
     cout<<op.getResult()<<endl;
 //operator.h
-
+    Operator o(const char *original,const char *Result);
 //connect.h
-    connect c;
-
-    //connect to host
-    c.conn(host , port);
-     
-    //send some data
-    c.send_data(".....");
-     
-    //receive and echo reply
-    cout<<"----------------------------\n\n";
-    cout<<c.receive(1024);
-    cout<<"\n\n----------------------------\n\n";
-   
-    return 0;
+    connect c(unsigned short int port, string ip);
+return 0;
 }
