@@ -13,7 +13,6 @@ using namespace std;
 #include <cryptopp/files.h>
 #include <cryptopp/md5.h>
 using namespace CryptoPP;
-
 #define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
    
 void connect::connect(int Socket,unsigned short int port, string ip)
