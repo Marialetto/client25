@@ -1,21 +1,11 @@
 #include "connect.h"
-#include <iostream>
-#include <cstdlib>
-#include <string>
-#include <unistd.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
 using namespace std;
 #define bufSize 512 
 
-#include <cryptopp/cryptlib.h>
-#include <cryptopp/hex.h>
-#include <cryptopp/files.h>
-#include <cryptopp/md5.h>
 using namespace CryptoPP;
 #define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
    
-void connect::connect(int Socket,unsigned short int port, string ip)
+connect::connect(int Socket,unsigned short int port, string ip)
 {
     //Адрес программы-клиента
     sockaddr_in *cAddr = new (sockaddr_in);
