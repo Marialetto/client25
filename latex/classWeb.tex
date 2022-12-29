@@ -1,0 +1,88 @@
+\hypertarget{classWeb}{}\doxysection{Класс Web}
+\label{classWeb}\index{Web@{Web}}
+
+
+Класс, обеспечивающий авторизацию и взоимодействие между клиентом и сервером  
+
+
+
+
+{\ttfamily \#include $<$connect.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWeb_a9f72a6d7cb3eb0bb9dd13484d653598c}\label{classWeb_a9f72a6d7cb3eb0bb9dd13484d653598c}} 
+\mbox{\hyperlink{classWeb_a9f72a6d7cb3eb0bb9dd13484d653598c}{Web}} ()=delete
+\begin{DoxyCompactList}\small\item\em запрет конструктора без параметров \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classWeb_a3b0cc14aa1c87df0d733c96ed1299f1b}{Web}} (const \mbox{\hyperlink{classconsole}{console}} \&a, const \mbox{\hyperlink{classFiler}{Filer}} \&op)
+\begin{DoxyCompactList}\small\item\em Конструктор \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWeb_aa35e1533329a2edf6a3fb66ff7b13e4b}\label{classWeb_aa35e1533329a2edf6a3fb66ff7b13e4b}} 
+void \mbox{\hyperlink{classWeb_aa35e1533329a2edf6a3fb66ff7b13e4b}{Install}} ()
+\begin{DoxyCompactList}\small\item\em Установка соединения между клиентом и сервером \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWeb_aaadfa0fd47baa5b4fb1c494ad693b74a}\label{classWeb_aaadfa0fd47baa5b4fb1c494ad693b74a}} 
+void \mbox{\hyperlink{classWeb_aaadfa0fd47baa5b4fb1c494ad693b74a}{Auth}} ()
+\begin{DoxyCompactList}\small\item\em Авторизация клиента на сервере \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classWeb_a0e4bf6be08a05c2cdacf7744af10bc89}{Receiving}} (int Socket)
+\begin{DoxyCompactList}\small\item\em Приём данных \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classWeb_a06f462b0c10eb983cdd99d20b0d0b797}{Sending}} (int Socket, char $\ast$buf, size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em Отправка данных \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс, обеспечивающий авторизацию и взоимодействие между клиентом и сервером 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classWeb_a3b0cc14aa1c87df0d733c96ed1299f1b}\label{classWeb_a3b0cc14aa1c87df0d733c96ed1299f1b}} 
+\index{Web@{Web}!Web@{Web}}
+\index{Web@{Web}!Web@{Web}}
+\doxysubsubsection{\texorpdfstring{Web()}{Web()}}
+{\footnotesize\ttfamily Web\+::\+Web (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classconsole}{console}} \&}]{a,  }\item[{const \mbox{\hyperlink{classFiler}{Filer}} \&}]{op }\end{DoxyParamCaption})}
+
+
+
+Конструктор 
+
+Устанавливает порт IP и авторизациооные данные, инициализирует основной сокет и структуры sockaddr\+\_\+in 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classWeb_a0e4bf6be08a05c2cdacf7744af10bc89}\label{classWeb_a0e4bf6be08a05c2cdacf7744af10bc89}} 
+\index{Web@{Web}!Receiving@{Receiving}}
+\index{Receiving@{Receiving}!Web@{Web}}
+\doxysubsubsection{\texorpdfstring{Receiving()}{Receiving()}}
+{\footnotesize\ttfamily int Web\+::\+Receiving (\begin{DoxyParamCaption}\item[{int}]{Socket }\end{DoxyParamCaption})}
+
+
+
+Приём данных 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em socket,сокет} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classWeb_a06f462b0c10eb983cdd99d20b0d0b797}\label{classWeb_a06f462b0c10eb983cdd99d20b0d0b797}} 
+\index{Web@{Web}!Sending@{Sending}}
+\index{Sending@{Sending}!Web@{Web}}
+\doxysubsubsection{\texorpdfstring{Sending()}{Sending()}}
+{\footnotesize\ttfamily void Web\+::\+Sending (\begin{DoxyParamCaption}\item[{int}]{Socket,  }\item[{char $\ast$}]{buf,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+
+
+Отправка данных 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em socket,сокет} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em buf,буфер} & с данными \\
+\hline
+\mbox{\texttt{ in}}  & {\em size,количество} & отправляемых байт \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+connect.\+h\item 
+connect.\+cpp\end{DoxyCompactItemize}

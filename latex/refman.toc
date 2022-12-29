@@ -1,0 +1,20 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {1}Алфавитный указатель классов}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Классы}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Классы}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Класс console}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Конструктор(ы)}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}console()}{4}{subsubsection.2.1.1.1}%
+\contentsline {section}{\numberline {2.2}Класс Filer}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Конструктор(ы)}{5}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Filer()}{5}{subsubsection.2.2.1.1}%
+\contentsline {section}{\numberline {2.3}Структура Vect\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Класс Web}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Подробное описание}{6}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Конструктор(ы)}{6}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Web()}{6}{subsubsection.2.4.2.1}%
+\contentsline {subsection}{\numberline {2.4.3}Методы}{6}{subsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.1}Receiving()}{6}{subsubsection.2.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.4.3.2}Sending()}{7}{subsubsection.2.4.3.2}%
+\contentsline {chapter}{{\cyrillictext \CYRP \cyrr \cyre \cyrd \cyrm \cyre \cyrt \cyrn \cyrery \cyrishrt \ \cyru \cyrk \cyra \cyrz \cyra \cyrt \cyre \cyrl \cyrsftsn }}{9}{section*.6}%

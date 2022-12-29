@@ -1,0 +1,59 @@
+\hypertarget{classFiler}{}\doxysection{Класс Filer}
+\label{classFiler}\index{Filer@{Filer}}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classFiler_ad7e9d11e613d16e4573c346e0d238513}\label{classFiler_ad7e9d11e613d16e4573c346e0d238513}} 
+\mbox{\hyperlink{classFiler_ad7e9d11e613d16e4573c346e0d238513}{Filer}} ()=delete
+\begin{DoxyCompactList}\small\item\em запрет конструктора без параметров \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFiler_a4fe8e7c46a4b19dcfa8aee254170ed40}{Filer}} (const \mbox{\hyperlink{classconsole}{console}} \&a)
+\begin{DoxyCompactList}\small\item\em Конструктор, внутри которого инцелизируются параметры из командной строки \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a7d78763b6e4425ecd7d03b6e2848a55e}\label{classFiler_a7d78763b6e4425ecd7d03b6e2848a55e}} 
+\mbox{\hyperlink{classFiler_a7d78763b6e4425ecd7d03b6e2848a55e}{$\sim$\+Filer}} ()
+\begin{DoxyCompactList}\small\item\em дecтруктор \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a7393117add16dbc23c4e5a355f678ffa}\label{classFiler_a7393117add16dbc23c4e5a355f678ffa}} 
+void \mbox{\hyperlink{classFiler_a7393117add16dbc23c4e5a355f678ffa}{Write}} (uint16\+\_\+t piece)
+\begin{DoxyCompactList}\small\item\em Запись результатов в файл \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a2eb9c3ea824befc1159d63b6901c5b5b}\label{classFiler_a2eb9c3ea824befc1159d63b6901c5b5b}} 
+uint32\+\_\+t \mbox{\hyperlink{classFiler_a2eb9c3ea824befc1159d63b6901c5b5b}{get\+Vector\+Size}} (unsigned int num\+Vec)
+\begin{DoxyCompactList}\small\item\em Размер одного вектора \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a1714ad901f25b0db090d770446376340}\label{classFiler_a1714ad901f25b0db090d770446376340}} 
+uint16\+\_\+t $\ast$ \mbox{\hyperlink{classFiler_a1714ad901f25b0db090d770446376340}{get\+Vector}} (unsigned int num\+Vec)
+\begin{DoxyCompactList}\small\item\em Номер вектора \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a5a1def298eac45ac3a28b1a9da6f21fe}\label{classFiler_a5a1def298eac45ac3a28b1a9da6f21fe}} 
+uint32\+\_\+t \mbox{\hyperlink{classFiler_a5a1def298eac45ac3a28b1a9da6f21fe}{get\+Amount}} ()
+\begin{DoxyCompactList}\small\item\em Логин для авторизации \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_ae34a816e5312e39f17c694a0d8ce69a5}\label{classFiler_ae34a816e5312e39f17c694a0d8ce69a5}} 
+string \mbox{\hyperlink{classFiler_ae34a816e5312e39f17c694a0d8ce69a5}{get\+Login}} () const
+\begin{DoxyCompactList}\small\item\em Колличество векторов \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiler_a0affae79e75b2bd3ddc75e652495b62e}\label{classFiler_a0affae79e75b2bd3ddc75e652495b62e}} 
+string \mbox{\hyperlink{classFiler_a0affae79e75b2bd3ddc75e652495b62e}{get\+Pswd}} () const
+\begin{DoxyCompactList}\small\item\em Пароль для авторизации \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classFiler_a4fe8e7c46a4b19dcfa8aee254170ed40}\label{classFiler_a4fe8e7c46a4b19dcfa8aee254170ed40}} 
+\index{Filer@{Filer}!Filer@{Filer}}
+\index{Filer@{Filer}!Filer@{Filer}}
+\doxysubsubsection{\texorpdfstring{Filer()}{Filer()}}
+{\footnotesize\ttfamily Filer\+::\+Filer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classconsole}{console}} \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Конструктор, внутри которого инцелизируются параметры из командной строки 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em ifstream} & original -\/ Открытие файла c исходными данными для чтения \\
+\hline
+\mbox{\texttt{ in}}  & {\em ofstream} & Result -\/Открытие файла c результатами для записи \\
+\hline
+\mbox{\texttt{ in}}  & {\em auth\+File\+Name,путь} & к файлу, на котором находятся \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+operator.\+h\item 
+operator.\+cpp\end{DoxyCompactItemize}
